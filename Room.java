@@ -1,4 +1,3 @@
-
 //1
 class Room{
 	
@@ -46,18 +45,41 @@ class Room{
             this.width = 10;
             this.floor = 1;	 
 }
-    
-    //d
- public String toString(String toString) {
-     System.o9ut.println(length * width + "on floor");
- return.format 
- }
-    
-    //f            
-    class Classroom extends Room{
-        private int numStudents; //= Math.max()
-        
+  public static void main (String [] args){
+}
+
  
+    //d
+class newclass extends Room{
+
+    public newclass(double length, double width, int floor) {
+        super(length, width, floor);
+    }
+ public String toString() {    
+ return String.format(getLength() + "x" + getWidth() + "on" + getFloor());
+ }
+}   
+ //e
+
+ interface Comparable implements Room{
+ public void CompareTo();
+     CompareTo[] array = {floor,length,width}
+             
+ 
+ }            
+ }
+         
+         
+   //f            
+    class Classroom extends Room{
+        private int numStudents;
+
+    public Classroom(double length, double width, int floor) {
+        super(length, width, floor);
+    }
+         Math.max(Classroom);
+        
+    }
               
 
     //g
@@ -71,26 +93,15 @@ class Room{
 //h
        
    public String toString(){
+            return ;
    
     }  
    
   static void array() {
     // code to be executed
-  }
-    }
-
-		
-	public static void main (String [] args){
-		
-   
-	
-	
-	
-
-
-	
-	
-	
-	
-	}
 }
+    
+}
+		
+
+
